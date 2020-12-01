@@ -7,4 +7,4 @@ RUN apk --no-cache add --virtual native-deps \
 
 
 
-CMD npm install worker-farm && npm install ts3-nodejs-library && npm install mysql2 && npm install mysql && npm install inarray && npm cache clean --force --loglevel=error && node main.js
+CMD npm install worker-farm && npm install redis && npm install timers && npm install console && npm install ts3-nodejs-library && npm install mysql2 && npm install mysql && npm install inarray && npm cache clean --force --loglevel=error && node main.js
